@@ -1,0 +1,26 @@
+
+while wait() do
+local args = {
+    [1] = {
+        ["Funny"] = "durpiei1",
+        ["Cash"] = 99999999999999999
+    }
+}
+
+game:GetService("ReplicatedStorage").Add:FireServer(unpack(args))
+end
+
+wait (2)
+
+
+
+while wait() do
+local args = {
+    [1] = 1
+}
+
+game:GetService("ReplicatedStorage").Prestige:FireServer(unpack(args))
+end
+
+wait(0.5)
+print("hi")
