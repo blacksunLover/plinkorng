@@ -10,10 +10,6 @@ local args = {
 game:GetService("ReplicatedStorage").Add:FireServer(unpack(args))
 end
 
-wait (2)
-
-
-
 while wait() do
 local args = {
     [1] = 1
@@ -22,5 +18,3 @@ local args = {
 game:GetService("ReplicatedStorage").Prestige:FireServer(unpack(args))
 end
 
-wait(0.5)
-print("hi")
