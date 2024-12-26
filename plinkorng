@@ -8,7 +8,11 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Add:FireServer(unpack(args))
+end
 
+wait(0.1)
+
+while wait () do
 local args = {
     [1] = 1
 }
